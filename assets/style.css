@@ -7,7 +7,6 @@ body {
     padding: 0;
     color: #ffffff;
     font-family: 'Life Savers', 'Hubballi', cursive;
-   
 }
 
 /* Header */
@@ -82,7 +81,7 @@ a:hover {
 }
 
 .menu-items {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -189,8 +188,10 @@ a:hover {
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 100vmax #ffffff;
-    z-index: 1;
+    box-shadow: 0vmax 0vmax 0px 100vmax #ffffff;
+    height: auto;
+    position: fixed;
+    z-index: 1; 
 }
 
 #toggle:checked ~ .menu-items {
