@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Life+Savers:wght@400;800&display=swap');
+
+@import url(./header-background-water-effect.css);
+@import url(./header.css);
+@import url(./menu-hamburguer.css);
+@import url(./card.css);
+
+:root {
+    --color-white: #fff;
+    --color-grey-text: #484d50;
+    --color-dark-blue: #002C42;
+    --color-light-blue: #D2E5F7;
+    --color-blue-gradient: linear-gradient(-45deg, #002C42, #00495C, #216A8F, #53839b, #D2E5F7);
+    --font-main: 'Life Savers', 'Hubballi', cursive;
+    --font-subtitle: 'Hubballi', cursive;
+    --font-text: 'Verdana', sans-serif;
+}
+
+body {
+    color: var(--color-white);
+    font-family: var(--font-main);
+}
+
+.footer {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-dark-blue);
+    letter-spacing: 0.06rem;
+}

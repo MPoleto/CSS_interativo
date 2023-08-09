@@ -1,87 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon_face.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/img/dive_favicon.png">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Operadora de Mergulho</title>
 </head>
+
 <body>
-    <header class="header-wrapper">
-        <div class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                    <label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-items">
-                        <ul>
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="#">Contatos</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+    <header class="header__container">
+        <h1 class="header__title">Operadora de mergulho</h1>
+        <h2 class="header__subtitle">Certificação PADI</h2>
+        <nav class="header__social-media">
+            <a href="#" class="social-media__link">Linkedin</a>
+            <a href="#" class="social-media__link">Instagram</a>
+        </nav>
+        <div class="menu__container">
+            <div>
+                <input type="checkbox" class="menu__toggle" id="menu__input-checkbox">
+                <label class="menu__menu-hamburguer" for="menu__input-checkbox">
+                    <div class="menu-hamburguer__trace"></div>
+                    <div class="menu-hamburguer__trace"></div>
+                    <div class="menu-hamburguer__trace"></div>
+                </label>
+                <div class="menu__background"></div>
+                <nav class="menu__links">
+                    <ul>
+                        <li class="menu__links__item">
+                            <a href="#" class="menu__links__link">Home</a>
+                        </li>
+                        <li class="menu__links__item">
+                            <a href="#" class="menu__links__link">Sobre</a>
+                        </li>
+                        <li class="menu__links__item">
+                            <a href="#" class="menu__links__link">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-        <h1>Operadora de mergulho</h1>
-        <h2>Certificação PADI</h2>
-        <div class="social-media">
-            <a href="#">Linkedin</a>
-            <a href="#">Instagram</a>
         </div>
     </header>
-    <main class="container">
-        <div class="card-container">
-            <div class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div class="card">
-                <div class="card-wrapper">
+    <main class="main__container">
+        <section class="card__section">
+            <a href="#" class="card__link">
+                <div class="card__topic">
                     <h2>Cursos</h2>
-                    <a href="#">Conheça nossos cursos</a>
+                    <p>Conheça nossos cursos</p>
                 </div>
-            </div> 
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <div class="card-wrapper">
+            </a>
+            <p class="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </section>
+        <section class="card__section">
+            <a href="#" class="card__link">
+                <div class="card__topic">
                     <h2>Saídas</h2>
-                    <a href="#">Mergulhe com a gente</a>
+                    <p>Mergulhe com a gente</p>
                 </div>
-            </div>
-            <div class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div class="card">
-                <div class="card-wrapper">
+            </a>
+            <p class="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </section>
+        <section class="card__section">
+            <a href="#" class="card__link">
+                <div class="card__topic">
                     <h2>Serviços</h2>
-                    <a href="#">Saiba mais sobre nossos serviços</a>
+                    <p>Saiba mais sobre nossos serviços</p>
                 </div>
-            </div>
-        </div>
+            </a>
+            <p class="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </section>
     </main>
     <footer class="footer">
-        ©2022 - Feito por Mariana Poleto dos Santos
+        ©2022-2023 - Feito por Mariana Poleto dos Santos
     </footer>
+    <!-- Favicon: <a target="_blank" href="https://icons8.com/icon/D65VJwIcJSwi/dive">Dive</a> icon by <a target="_blank"
+    href="https://icons8.com">Icons8</a> -->
 </body>
 </html>
